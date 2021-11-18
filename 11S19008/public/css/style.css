@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1024px;
+    margin: 20px auto;
+    border: 1px solid black;
+}
+
+/* AWAL HEADER */
+header {
+    width: 100%;
+    height: 180px;
+    display: flex;
+    border: 1px solid black;
+    background-color: #b4ca78;;
+}
+
+.logo-box {
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.logo-img {
+    width: 80px;
+    height: 80px;
+}
+
+.title-box {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-text {
+    font-size: 48px;
+    font-family: "Times New Roman";
+    font-weight: bold;
+}
+
+.form-login-box {
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.form-login-text {
+    transform: translate(0, -20px);
+}
+/* AKHIR HEADER */
+
+/* AWAL MAIN -> ARTICLE + NAV */
+/* main */
+.main {
+    display: flex;
+}
+
+/* awal article */
+article {
+    width: 750px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.data-box {
+    width: 100%;
+    padding: 50px;
+}
+
+.data-head-box {
+    margin-bottom: 50px;
+}
+
+.data-head-text {
+    text-align: center;
+    font-size: 30px;
+}
+
+.data-main-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.data-list {
+    margin-bottom: 27px;
+}
+
+.th {
+    display: inline-block;
+    width: 50px;
+    font-weight: 700;
+}
+
+.titik-dua {
+    margin-right: 9px;
+}
+
+
+
+.data-img {
+    height: 200px;
+    width: auto;
+}
+/* akhir article */
+
+/* awal nav */
+nav {
+    width: 274px;
+    border: 1px solid black;
+    background-color: #cfb0f1;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 50px 60px;
+}
+
+.list {
+    margin-bottom: 25px;
+}
+/* akhir nav */
+/* AKHIR MAIN -> ARTICLE + NAV */
+
+/* AWAL FOOTER */
+footer {
+    width: 100%;
+    height: 70px;
+    background-color: #b4ca78;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-box p {
+    font: 28px "Times New Roman";
+}
+
+/* AKHIR FOOTER */
